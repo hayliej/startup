@@ -1,2 +1,2 @@
 conflict file
-making some changes
+making a few changes
