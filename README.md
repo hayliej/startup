@@ -12,3 +12,5 @@
 + User can add or delete questions
 
 ### Technologies
+I will use the required technologies in these ways:
++ 
