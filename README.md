@@ -32,9 +32,9 @@ I will use the required technologies in these ways:
 
 ## HTML Deliverable
 For this deliverable I created the general structure of my app.
-+ **HTML pages -** - 5 HTML pages. Home page, decision start page leading to decision making page when you press start, results page showing the results of your decision, and an about page explaining the purpose of the app.
-+ **Links -** - the header has links to each page. The only page with the link not in the header is the page representing where the user would actually be making decisions and is linked from the "Start" button of the Decide page.
-+ **Text -** - sample text representing where users would put their options to decide between.
-+ **Login -** - input box for info and login button on the home page.
-+ **Database -** - the options for deciding would be data from the database based on the user's entries.
-+ **WebSocket -** - will take into account the winner of each decision pair in real time and move it to the next round.
++ **HTML pages -** 5 HTML pages. Home page, decision start page leading to decision making page when you press start, results page showing the results of your decision, and an about page explaining the purpose of the app.
++ **Links -** the header has links to each page. The only page with the link not in the header is the page representing where the user would actually be making decisions and is linked from the "Start" button of the Decide page.
++ **Text -** sample text representing where users would put their options to decide between.
++ **Login -** input box for info and login button on the home page.
++ **Database -** the options for deciding would be data from the database based on the user's entries.
++ **WebSocket -** will take into account the winner of each decision pair in real time and move it to the next round.
