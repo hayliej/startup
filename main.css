@@ -6,6 +6,8 @@ body {
   
   header {
     flex: 0 80px;
+    background: rgb(236, 236, 252);
+    font-color: white;
   }
   
   main {
@@ -14,10 +16,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background: rgb(236, 236, 252);
   }
   
   footer {
     flex: 0 30px;
+    background: rgb(216, 216, 250);
   }
   
   menu {
@@ -56,3 +60,4 @@ body {
   li {
     padding: 0 0.5em;
   }
+
