@@ -38,3 +38,12 @@ For this deliverable I created the general structure of my app.
 + **Login -** input box for info and login button on the home page.
 + **Database -** the options for deciding would be data from the database based on the user's entries.
 + **WebSocket -** will take into account the winner of each decision pair in real time and move it to the next round.
+
+## CSS Deliverable
+For this deliverable I styled the application to its final appearance.
++ **Header, footer, and main content body -** edited the color, font, and format
++ **Navigation elements -** I spaced out the navigation elements
++ **Responsive to window resizing -** my app works for all window sizes and devices
++ **Application elements -** good use of contrast and whitespace
++ **Application text content -** consistent fonts and colors
++ **Application images -** image displayed on all windows
