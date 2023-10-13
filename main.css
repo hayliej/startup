@@ -22,6 +22,7 @@ body {
   footer {
     flex: 0 30px;
     background: rgb(216, 216, 250);
+    border-top: none;
   }
   
   menu {
