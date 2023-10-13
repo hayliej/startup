@@ -61,3 +61,15 @@ body {
     padding: 0 0.5em;
   }
 
+  td,
+tr {
+  color: black;
+  text-align: center;
+  border: white solid thi;
+  padding: 1em;
+}
+
+#table-data {
+  background-color: rgb(216, 216, 250);
+  width: 500px;
+}
