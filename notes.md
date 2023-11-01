@@ -25,7 +25,7 @@ In the following code,  what does a div tag do?
 A block division of content
 
 In the following code, what is the difference between the #title and .grid selector?
-# = id, single element with given id
+#= id, single element with given id
 . = class, multiple elements with given class
 Both selectors
 
@@ -121,8 +121,8 @@ const element = document.getElementById("myElementId");
 In this example, myElementId is the value of the id attribute of the HTML element you want to select. This method is very efficient and returns a reference to the DOM element with the specified id.
 Using querySelector:
 const element = document.querySelector("#myElementId");
-The querySelector method allows you to use CSS-like selectors, including the # selector, to select elements. In this case, #myElementId will select the first element with the specified id attribute.
-If you have multiple elements with the same id, using the # selector will return only the first one encountered in the DOM.
+The querySelector method allows you to use CSS-like selectors, including the #selector, to select elements. In this case, #myElementId will select the first element with the specified id attribute.
+If you have multiple elements with the same id, using the #selector will return only the first one encountered in the DOM.
 
 Which of the following are true? (mark all that are true about the DOM)
 object representation of the HTML elements that the browser uses to render the display
