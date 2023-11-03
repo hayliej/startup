@@ -16,6 +16,9 @@ can see conflicts when merging, fix conflicts, push fixed file from editor to gi
 make sure you're in the directory with the deploy files
 will deploy the indicated files (in this case simon) to the website with that indicated domain
 
+now with backend:
+/Users/hayliejarvis/CS260/startup/simon-javascript/simon-service/deployService.sh -k ~/CS260/cs206pt2.pem -h hayliejarvis.com -s simon
+
 
 # EXAM 1 study guide:
 In the following code, what does the link element do?
