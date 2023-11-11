@@ -1,8 +1,8 @@
 const opt1 = document.getElementById('opt1');
-  const opt2 = document.getElementById('opt2');
-  const opt3 = document.getElementById('opt3');
-  const opt4 = document.getElementById('opt4');
-  const opt5 = document.getElementById('opt5');
+const opt2 = document.getElementById('opt2');
+const opt3 = document.getElementById('opt3');
+const opt4 = document.getElementById('opt4');
+const opt5 = document.getElementById('opt5');
 
 function submit() {
     const nameEl = document.querySelector("#count");
@@ -23,17 +23,27 @@ function submit() {
   window.onload = displayQuestion;
 
 
-    // Add a blur event listener to the first textbox
   opt1.addEventListener('blur', function () {
-    // Automatically move focus to the second textbox
+    const nameEl = document.querySelector("#opt1");
+    localStorage.setItem("option1", nameEl.value);
     opt2.focus();
   });
   opt2.addEventListener('blur', function () {
+    const nameEl = document.querySelector("#opt2");
+    localStorage.setItem("option2", nameEl.value);
     opt3.focus();
   });
   opt3.addEventListener('blur', function () {
+    const nameEl = document.querySelector("#opt3");
+    localStorage.setItem("option3", nameEl.value);
     opt4.focus();
   });
   opt4.addEventListener('blur', function () {
+    const nameEl = document.querySelector("#opt4");
+    localStorage.setItem("option4", nameEl.value);
     opt5.focus();
+  });
+  opt5.addEventListener('blur', function () {
+    const nameEl = document.querySelector("#opt5");
+    localStorage.setItem("option5", nameEl.value);
   });
