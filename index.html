@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
   </head>
+  <script src="login.js"></script>
   <body>
     <!-- Use header, main, and footer elements to give semantic structure -->
     <header>
@@ -40,10 +41,10 @@
     <main>
       <h1 style="color:rgb(3, 3, 3)">Welcome</h1>
       <p>Login to choose</p>
-      <form method="get" action="play.html">
+      <form method="get" >
         <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Your name here" />
-        <button class="btn btn-primary" type="submit">Login</button>
+        <input type="text" id="namthing" placeholder="Your name here" />
+        <button class="btn btn-primary" type="button" onclick = login()>Login</button>
       </form>
     </main>
 
@@ -54,6 +55,7 @@
       <a href="https://github.com/hayliej/startup.git">GitHub</a>
     </footer>
 
-    <script src="login.js"></script>
+    
   </body>
+  <script>displayName()</script>
 </html>
