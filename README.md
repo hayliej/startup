@@ -47,3 +47,10 @@ For this deliverable I styled the application to its final appearance.
 + **Application elements -** good use of contrast and whitespace
 + **Application text content -** consistent fonts and colors
 + **Application images -** image displayed on all windows
+
+## JavaScript Deliverable
+For this deliverable I implemented JavaScript to include basic functionality for the application that works for a single user. I also added placeholders for future technology.
++ **login -** when you press the login button it takes you to the page to enter options to decide between and displays your name in the header
++ **database -** it currently stores decision information in local storage, but will use database for this data in the future
++ **WebSocket -** currently displays decision results in a table for single user, in the future this will display decisions from fellow users as well
++ **application logic -** when you choose one option it shows you the next one until you have come to a decision.
