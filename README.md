@@ -54,3 +54,11 @@ For this deliverable I implemented JavaScript to include basic functionality for
 + **database -** it currently stores decision information in local storage, but will use database for this data in the future
 + **WebSocket -** currently displays decision results in a table for single user, in the future this will display decisions from fellow users as well
 + **application logic -** when you choose one option it shows you the next one until you have come to a decision.
+
+## Service Deliverable
+For this deliverable I added backend endpoints that receive votes and then returns the decision.
++ **Node.js/Express HTTP service -** done
++ **Static middleware for frontend -** done
++ **Calls to third party endpoints -** done, puts a quotation from an API on the about page
++ **Backend service endpoints -** Placeholder for login that stores the current user on the server. Endpoints for decision results.
++ **Frontend calls service endpoints -** I did this using the fetch function
