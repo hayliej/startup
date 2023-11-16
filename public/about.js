@@ -9,3 +9,14 @@ function displayName() {
     }
   }
   window.onload = displayName;
+
+const url = "https://api.chucknorris.io/jokes/random";
+fetch(url)
+  .then((x) => x.json())
+  .then((response) => {
+    document.querySelector("#quote").textContent = JSON.stringify(
+      response.value,
+      null,
+      "  "
+    );
+  });

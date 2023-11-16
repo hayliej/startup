@@ -32,6 +32,7 @@ if (ops.length===0){
         winner=rightButton;
     }
     localStorage.setItem("winner", winner);
+    f(winner);
     window.location.href = "scores.html"
 }
 if (isleft) {
@@ -40,19 +41,27 @@ if (isleft) {
 else {
     options(ops[0], rightButton);
 }
-console.log(ops)
 ops.splice(0, 1)
-console.log(ops)
-
 }
+
+async function f (win){
+    jsonthing = {winner : win, name : storedName, question : question}
+    console.log(jsonthing.winner)
+    const response = await fetch('/api/result', {
+    method: 'POST',
+    headers: {'content-type': 'application/json'},
+    body: JSON.stringify(jsonthing),
+  });}
+
 
 function displayName() {
     const nameEl = document.querySelector("#name");
-    const storedName = localStorage.getItem("userName");
     if (storedName) {
       nameEl.textContent = storedName; //don't think this is working, not sure why yet
     } else {
       nameEl.textContent = "Login";
     }
   }
+  const storedName = localStorage.getItem("userName");
+  const question = localStorage.getItem('question')
   window.onload = displayName;
